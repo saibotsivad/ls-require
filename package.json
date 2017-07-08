@@ -1,0 +1,22 @@
+{
+  "name": "ls-require",
+  "version": "1.0.0",
+  "description": "For each filename piped in, require it. Useful for running tape tests.",
+  "bin": {
+    "globbit": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saibotsivad/ls-require.git"
+  },
+  "keywords": [
+    "ls",
+    "cli"
+  ],
+  "author": "saibotsivad",
+  "license": "VOL",
+  "bugs": {
+    "url": "https://github.com/saibotsivad/ls-require/issues"
+  },
+  "homepage": "https://github.com/saibotsivad/ls-require#readme"
+}
