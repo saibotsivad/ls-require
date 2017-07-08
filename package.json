@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "For each filename piped in, require it. Useful for running tape tests.",
   "bin": {
-    "globbit": "index.js"
+    "ls-require": "index.js"
   },
   "repository": {
     "type": "git",
