@@ -1,6 +1,6 @@
 {
   "name": "ls-require",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "For each filename piped in, require it. Useful for running tape tests.",
   "bin": "index.js",
   "repository": {
