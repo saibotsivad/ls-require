@@ -7,10 +7,15 @@ const cwd = process.argv[2] || './'
 const files = []
 
 process.stdin
-    .on('data', file => {
-        files.push(resolve(cwd, file.toString('utf8').trim()))
-    })
+	.on('data', file => {
+		file
+			.toString('utf8')
+			.trim()
+			.split(/\r?\n/)
+			.filter(Boolean)
+			.forEach(file => files.push(file))
+	})
 
 process.stdin.on('end', () => {
-    files.forEach(file => require(file))
+	files.forEach(file => require(file))
 })
