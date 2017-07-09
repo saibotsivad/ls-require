@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const resolve = require('path').resolve
 
 const cwd = process.argv[2] || './'
