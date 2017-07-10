@@ -13,7 +13,7 @@ process.stdin
 			.trim()
 			.split(/\r?\n/)
 			.filter(Boolean)
-			.forEach(file => files.push(file))
+			.forEach(file => files.push(resolve(cwd, file)))
 	})
 
 process.stdin.on('end', () => {
