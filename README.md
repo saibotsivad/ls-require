@@ -1,5 +1,7 @@
 # ls-require
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/saibotsivad/ls-require.svg)](https://greenkeeper.io/)
+
 For each filename piped in, require it. Useful for running tape tests.
 
 ## install
